@@ -18,9 +18,9 @@ myz_func.o: c_src/myz_func.c
 
 valgrind: $(OBJS)
 	$(CC) -g $(OBJS) -o myz
-	valgrind /home/users/sdi2200169/Documents/OS/project4/myz -c 123.myz 
-	valgrind /home/users/sdi2200169/Documents/OS/project4/myz -m 123.myz
-	valgrind /home/users/sdi2200169/Documents/OS/project4/myz -x 123.myz
+	./myz -c 123.myz 
+	./myz -m 123.myz
+#	./myz -x 123.myz
 
 clean:
 	rm -f $(OBJS) myz
