@@ -1,3 +1,17 @@
+##Περίληψη##
+
+Αυτό το έργο αφορά την ανάπτυξη ενός command-line εργαλείου με την ονομασία myz, το οποίο επιτρέπει στους χρήστες να επιπεδοποιούν 
+λογικές ιεραρχίες καταλόγων και αρχείων σε ένα περιβάλλον Linux. Τα παραγόμενα αρχεία αρχειοθέτησης έχουν την επέκταση
+.myz και μπορούν να συμπιέσουν το περιεχόμενο των κανονικών αρχείων χρησιμοποιώντας το gzip. Το myz προσφέρει λειτουργικότητα παρόμοια 
+με εργαλεία συμπίεσης όπως zip, tar και rar.
+
+##Summary##
+This project is a system program named myz that flattens logical directory and file hierarchies in Linux. The resulting archive files have 
+a .myz extension and can compress the contents of plain files using gzip, as well as provide all necessary information regarding the structure 
+of the logical hierarchy within Linux. The myz program should work similarly to tools like zip, tar, and rar.
+
+
+
 To myz.c δημιουργεί ένα .myz (zipped) αρχείο στο οπόιο αποθηκεύουμε σε μορφή inodes άλλα files/directories. 
 
 Με τη χρήση του flag -c δημιουργείται μια λίστα που περιέχει όλα τα αρχεία που δίνονται από την list-of-files/dirs. 
